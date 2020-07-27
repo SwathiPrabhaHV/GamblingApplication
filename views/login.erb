@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row justify-content-center" style="padding-top:5%;">
+        <div class="col-lg-4 text-center">
+            <h2 class="mt-0 text-color">Let's Play! Ready to roll the dice</h2>
+            <hr class="divider my-4" />
+            <p>Test username: user </p>
+            <p>Test password: pass </p>
+            <hr class="divider my-4" />
+            <form  method='post' action='/login' >
+              <div class="form-group">
+                <label for="user" class="text-color">Username</label>
+                <input type="text" id="user" class="form-control" name="username" required>
+              </div>
+              <div class="form-group">
+                <label for="password" class="text-color">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+              </div>
+              <% if session[:message] %>
+              <h3><%= session[:message] %> </h3>
+                  <% session[:message]= nil %>
+              <% end %>
+              <button name="login" type="submit" class="btn btn-danger">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <div class="row">
+        <div class="col-sm-11 col-sm-offset-1 hid">
+            <div class="row">
+                <div class="col-sm-3 col-sm-offset-4 text-center;" style="margin-top:5%">
+                  <form  method='post' action='/login' >
+                  <div class="form-group">
+                    <label for="user">Username</label>
+                    <input type="text" id="user" class="form-control" name="username">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="password">
+                  </div>
+                  <button name="login" type="submit" id="login" class="btn btn-danger">Login</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+</div> -->

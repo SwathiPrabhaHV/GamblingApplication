@@ -1,0 +1,142 @@
+/*
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+} /* to make it a box-model*/
+/* html{
+  margin: 0px;
+}*/
+
+
+html{
+  background:url(../images/dice.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: left 0% top 23%; */
+  /* width:100%; *
+  /* margin: 0px; */
+  /* padding: 20px; */
+  }
+
+  body{
+    margin: 0px;
+    /* padding: 0px; */
+  }
+
+.branding{
+  background-color: grey;
+  color:white;
+  padding: 5px;
+  text-align: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 100px;
+  position: relative;
+  border-style: ridge;
+  border-radius: 10px;
+  transform: translate(150%,150%);
+   padding-top:30px;
+  padding-left: 30px;
+  background-color: white;
+  color:black;
+  opacity: 70%;
+
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+/*User login----------------------------------------*/
+ #user{
+/*   margin:20px; */
+  /* margin-inline: 45px;
+  margin-bottom: 20px; */
+}
+
+/*User password----------------------------------------*/
+ #password{
+  /* margin-inline: 15px; */
+}
+
+.form-container button{
+  width:20%;
+  margin-left:50%;
+  margin-top: 10px;
+  float: right;
+}
+/*  .login-class button{
+  margin-top: 10px;
+  margin-left: 20%;
+
+} */
+
+/*Home page ---------------------------------------*/
+.login-class{
+  float: left;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 70%;
+  clear: both;
+  background-color: white;
+  color:black;
+
+}
+/*User Bet-----------------------------------------*/
+#bet{
+  margin-bottom:20px;
+  margin-inline:5px;
+}
+/*User on-----------------------------------------*/
+#on{
+  margin-inline:10px;
+}
+/*User bet-button-----------------------------------*/
+.login-class #bet-button{
+  width: 70px;
+  margin-top: 10px;
+  margin-inline:15%;
+}
+
+/*User account--------------------------------------------*/
+
+.account{
+  clear: both;
+}
+.account-form{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  border-style: ridge;
+  padding: 5px;
+  width: 70%;
+}
+
+.account-form input{
+  margin-inline: 10px;
+}
+
+.account-form label{
+  margin-inline: 10px;
+}
+
+/*sidebar------------------------------------------------------*/
+.sidebar-form{
+  float: right;
+  border-style: ridge;
+  padding: 5px;
+}
+
+.site-background{
+
+}
