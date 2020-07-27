@@ -17,5 +17,5 @@
 	d. Each time the bet button is clicked both the session total values in the second column and account total values in the third column are updated
 	e. The account totals are also updated when the logout button is clicked
 	
-	![gambling](https://user-images.githubusercontent.com/22544164/88498307-9e2c9080-cf77-11ea-866c-cd528289ed06.jpg)
+	
 
